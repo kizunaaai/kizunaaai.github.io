@@ -13,7 +13,7 @@
 
 #### 服务器 clone 到本地
 `get clone git@github.com:<username>/<repository>.git`  
-示例： git clone git@github.com:kizunaaai/kizunaaai.github.io.git  
+示例： `git clone git@github.com:kizunaaai/kizunaaai.github.io.git`  
 
 #### update 三连发
 `git add .`  
@@ -61,4 +61,5 @@
 ## Second 心得
 这次应该算是真的入门了8 ，一直在徘徊犹豫 ，通过这次实践也学习到了许多平常经常接触却不怎么了解的东西 ，很开心能赶上自此活动 ，大家一起加油吧！  
 ~报名之后犹豫过，但是很开心还是投入进来了~  
-2018/11/4 1:37  ：
+最后一段猛如虎的操作之后就要是睡觉觉了
+2018/11/4 1:37
