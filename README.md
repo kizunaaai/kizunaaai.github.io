@@ -1,65 +1,65 @@
-# ÊµÕ½Ñ§Ï°ĞÄµÃ
+# å®æˆ˜å­¦ä¹ å¿ƒå¾—
 
-## First ´úÂë±Ê¼Ç
+## First ä»£ç ç¬”è®°
 
 ### About github
 
-#### ±¾µØ upload µ½·şÎñÆ÷ºÍgithub pagesÍĞ¹Ü
-`git init`	³õÊ¼»¯Îª git ²Ö¿âÎÄ¼ş¼Ğ  
-`git remote add origin git@github.com:kizunaaai/kizunaaai.github.io.git`	 ÉèÖÃ git ²Ö¿âÎÄ¼ş¼ĞµÄÔ¶³ÌµØÖ·  
-`git add .`	Èı²¿Çú  
+#### æœ¬åœ° upload åˆ°æœåŠ¡å™¨å’Œgithub pagesæ‰˜ç®¡
+`git init`	åˆå§‹åŒ–ä¸º git ä»“åº“æ–‡ä»¶å¤¹  
+`git remote add origin git@github.com:kizunaaai/kizunaaai.github.io.git`	 è®¾ç½® git ä»“åº“æ–‡ä»¶å¤¹çš„è¿œç¨‹åœ°å€  
+`git add .`	ä¸‰éƒ¨æ›²  
 `git commit -m "first commit"`  
 `git push -u origin master`  
 
-#### ·şÎñÆ÷ clone µ½±¾µØ
+#### æœåŠ¡å™¨ clone åˆ°æœ¬åœ°
 `get clone git@github.com:<username>/<repository>.git`  
-Ê¾Àı£º `git clone git@github.com:kizunaaai/kizunaaai.github.io.git`  
+ç¤ºä¾‹ï¼š `git clone git@github.com:kizunaaai/kizunaaai.github.io.git`  
 
-#### gitÍĞ¹Ü ÈıÁ¬·¢
+#### gitæ‰˜ç®¡ ä¸‰è¿å‘
 `git add .`  
-`git commit -m " ±¸×¢ÄÚÈİ "`  
+`git commit -m " å¤‡æ³¨å†…å®¹ "`  
 `git push`  
 
-#### ²Ö¿âÃüÃû¹æ·¶
-½²²Ö¿âÉèÖÃÎª <repository_name>.github.io  
-Ö®ºó¿ÉÖ±½ÓÍ¨¹ı·ÃÎÊ https://<repository_name>.github.io Ö±½Ó·ÃÎÊµ½²Ö¿â
+#### ä»“åº“å‘½åè§„èŒƒ
+è®²ä»“åº“è®¾ç½®ä¸º <repository_name>.github.io  
+ä¹‹åå¯ç›´æ¥é€šè¿‡è®¿é—® https://<repository_name>.github.io ç›´æ¥è®¿é—®åˆ°ä»“åº“
   
 ### About command
-#### Ò»Ğ©»ù±¾³£ÓÃµÄÃüÁî
-* pwd    ²é¿´ËùÔÚÄ¿Â¼
-* dir    ä¯ÀÀÄ¿Â¼
+#### ä¸€äº›åŸºæœ¬å¸¸ç”¨çš„å‘½ä»¤
+* pwd    æŸ¥çœ‹æ‰€åœ¨ç›®å½•
+* dir    æµè§ˆç›®å½•
 * ls 
-   * ls/	²é¿´Ä¿Â¼ÏÂµÄ×Ó½Úµã
-   * ls -a	ÏÔÊ¾Òş²ØÎÄ¼ş
-   *¡¡ls -l	ÏÔÊ¾ÏêÇé
+   * ls/	æŸ¥çœ‹ç›®å½•ä¸‹çš„å­èŠ‚ç‚¹
+   * ls -a	æ˜¾ç¤ºéšè—æ–‡ä»¶
+   *ã€€ls -l	æ˜¾ç¤ºè¯¦æƒ…
 * cd 
-   * cd ..	·µ»ØÉÏ¼¶Ä¿Â¼
-   * cd <folder_name>	´ò¿ªÏà¶ÔÂ·¾¶
-   * cd /<folder_name>	´ò¿ª¾ø¶ÔÂ·¾¶
-   * cd ~/	´ò¿ªuserÂ·¾¶
+   * cd ..	è¿”å›ä¸Šçº§ç›®å½•
+   * cd <folder_name>	æ‰“å¼€ç›¸å¯¹è·¯å¾„
+   * cd /<folder_name>	æ‰“å¼€ç»å¯¹è·¯å¾„
+   * cd ~/	æ‰“å¼€userè·¯å¾„
 * mkdir 
-   * mkdir 	É¾³ı¿ÕÄ¿Â¼
-   * mkdir -r <folder_name>	É¾³ıÎÄ¼ş¼ĞÒÔ¼°ÀïÃæËùÓĞ×Ó½Úµã
-   * mkdir -rf <folder_name>	Ç¿ÖÆÉ¾³ıÎÄ¼ş¼Ğ»òÎÄ¼ş
+   * mkdir 	åˆ é™¤ç©ºç›®å½•
+   * mkdir -r <folder_name>	åˆ é™¤æ–‡ä»¶å¤¹ä»¥åŠé‡Œé¢æ‰€æœ‰å­èŠ‚ç‚¹
+   * mkdir -rf <folder_name>	å¼ºåˆ¶åˆ é™¤æ–‡ä»¶å¤¹æˆ–æ–‡ä»¶
 * touch
-   * touch <filename>	´´½¨ÎÄ¼ş
-   *ÍØÕ¹
-      * echo	ÖØ¶¨Ïò
-      * echo " content " > 123		½« content ¸²¸Çµ½ÎÄ¼şÃûÎª 123 µÄÎÄ¼şÖĞ
-      * echo " content  " >> 123 	½² content ×·¼Óµ½ÎÄ¼şÃûÎª 123 µÄÎÄ¼şÖĞ
+   * touch <filename>	åˆ›å»ºæ–‡ä»¶
+   *æ‹“å±•
+      * echo	é‡å®šå‘
+      * echo " content " > 123		å°† content è¦†ç›–åˆ°æ–‡ä»¶åä¸º 123 çš„æ–‡ä»¶ä¸­
+      * echo " content  " >> 123 	è®² content è¿½åŠ åˆ°æ–‡ä»¶åä¸º 123 çš„æ–‡ä»¶ä¸­
 * mv 
-   * mv 123.txt 321.txt		½«ÎÄ¼şÃûÎª123µÄtxtÖØÃüÃûÎª321
-   * mv 123.txt download	½«ÎÄ¼ş123.txtÒÆ¶¯µ½Ïà¶ÔÂ·¾¶µÄdownloadÎÄ¼ş¼ĞÖĞ
-* vi		ÎÄ±¾±à¼­Æ÷
-   * vi <filename>		´ò¿ªÎÄ¼ş
-   * i		ÆôÓÃ±à¼­
-   * esc	ÍË³ö±à¼­
-   * :wq!	±£´æ
+   * mv 123.txt 321.txt		å°†æ–‡ä»¶åä¸º123çš„txté‡å‘½åä¸º321
+   * mv 123.txt download	å°†æ–‡ä»¶123.txtç§»åŠ¨åˆ°ç›¸å¯¹è·¯å¾„çš„downloadæ–‡ä»¶å¤¹ä¸­
+* vi		æ–‡æœ¬ç¼–è¾‘å™¨
+   * vi <filename>		æ‰“å¼€æ–‡ä»¶
+   * i		å¯ç”¨ç¼–è¾‘
+   * esc	é€€å‡ºç¼–è¾‘
+   * :wq!	ä¿å­˜
 
 ---
 
-## Second ĞÄµÃ
-Õâ´ÎÓ¦¸ÃËãÊÇÕæµÄÈëÃÅÁË8 £¬Ò»Ö±ÔÚÅÇ»²ÓÌÔ¥ £¬Í¨¹ıÕâ´ÎÊµ¼ùÒ²Ñ§Ï°µ½ÁËĞí¶àÆ½³£¾­³£½Ó´¥È´²»ÔõÃ´ÁË½âµÄ¶«Î÷ £¬ºÜ¿ªĞÄÄÜ¸ÏÉÏ×Ô´Ë»î¶¯ £¬´ó¼ÒÒ»Æğ¼ÓÓÍ°É£¡  
-~±¨ÃûÖ®ºóÓÌÔ¥¹ı£¬µ«ÊÇºÜ¿ªĞÄ»¹ÊÇÍ¶Èë½øÀ´ÁË~  
-×îºóÒ»¶ÎÃÍÈç»¢µÄ²Ù×÷Ö®ºó¾ÍÒªÊÇË¯¾õ¾õÁË  
+## Second å¿ƒå¾—
+è¿™æ¬¡åº”è¯¥ç®—æ˜¯çœŸçš„å…¥é—¨äº†8 ï¼Œä¸€ç›´åœ¨å¾˜å¾ŠçŠ¹è±« ï¼Œé€šè¿‡è¿™æ¬¡å®è·µä¹Ÿå­¦ä¹ åˆ°äº†è®¸å¤šå¹³å¸¸ç»å¸¸æ¥è§¦å´ä¸æ€ä¹ˆäº†è§£çš„ä¸œè¥¿ ï¼Œå¾ˆå¼€å¿ƒèƒ½èµ¶ä¸Šè‡ªæ­¤æ´»åŠ¨ ï¼Œå¤§å®¶ä¸€èµ·åŠ æ²¹å§ï¼  
+~æŠ¥åä¹‹åçŠ¹è±«è¿‡ï¼Œä½†æ˜¯å¾ˆå¼€å¿ƒè¿˜æ˜¯æŠ•å…¥è¿›æ¥äº†~  
+æœ€åä¸€æ®µçŒ›å¦‚è™çš„æ“ä½œä¹‹åå°±è¦æ˜¯ç¡è§‰è§‰äº†  
 2018/11/4 2:00
