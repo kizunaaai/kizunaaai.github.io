@@ -4,7 +4,7 @@
 
 ### About github
 
-#### 本地 upload 到服务器
+#### 本地 upload 到服务器和github pages托管
 `git init`	初始化为 git 仓库文件夹  
 `git remote add origin git@github.com:kizunaaai/kizunaaai.github.io.git`	 设置 git 仓库文件夹的远程地址  
 `git add .`	三部曲  
@@ -15,7 +15,7 @@
 `get clone git@github.com:<username>/<repository>.git`  
 示例： `git clone git@github.com:kizunaaai/kizunaaai.github.io.git`  
 
-#### update 三连发
+#### git托管 三连发
 `git add .`  
 `git commit -m " 备注内容 "`  
 `git push`  
