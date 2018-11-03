@@ -30,31 +30,31 @@ git push
 * dir    浏览目录
 * ls 
    * ls/	查看目录下的子节点
-   ls -a	显示隐藏文件
-   ls -l	显示详情
+   * ls -a	显示隐藏文件
+   *　ls -l	显示详情
 * cd 
-   cd ..	返回上级目录
-   cd <folder_name>	打开相对路径
-   cd /<folder_name>	打开绝对路径
-   cd ~/	打开user路径
+   * cd ..	返回上级目录
+   * cd <folder_name>	打开相对路径
+   * cd /<folder_name>	打开绝对路径
+   * cd ~/	打开user路径
 * mkdir 
-   mkdir 	删除空目录
-   mkdir -r <folder_name>	删除文件夹以及里面所有子节点
-   mkdir -rf <folder_name>	强制删除文件夹或文件
+   * mkdir 	删除空目录
+   * mkdir -r <folder_name>	删除文件夹以及里面所有子节点
+   * mkdir -rf <folder_name>	强制删除文件夹或文件
 * touch
-   touch <filename>	创建文件
-   拓展
-      echo	重定向
-      echo " content " > 123		将 content 覆盖到文件名为 123 的文件中
-      echo " content  " >> 123 	讲 content 追加到文件名为 123 的文件中
+   * touch <filename>	创建文件
+   *拓展
+      * echo	重定向
+      * echo " content " > 123		将 content 覆盖到文件名为 123 的文件中
+      * echo " content  " >> 123 	讲 content 追加到文件名为 123 的文件中
 * mv 
-   mv 123.txt 321.txt		将文件名为123的txt重命名为321
-   mv 123.txt download		将文件123.txt移动到相对路径的download文件夹中
+   * mv 123.txt 321.txt		将文件名为123的txt重命名为321
+   * mv 123.txt download	将文件123.txt移动到相对路径的download文件夹中
 * vi		文本编辑器
-   vi <filename>		打开文件
-   i		启用编辑
-   esc	退出编辑
-   :wq!	保存
+   * vi <filename>		打开文件
+   * i		启用编辑
+   * esc	退出编辑
+   * :wq!	保存
 
 ---
 
