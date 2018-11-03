@@ -5,11 +5,11 @@
 ### About github
 
 #### 本地 upload 到服务器
-`git init`	初始化为 git 仓库文件夹
-`git remote add origin git@github.com:kizunaaai/kizunaaai.github.io.git`	 设置 git 仓库文件夹的远程地址
-`git add .`	三部曲
-`git commit -m "first commit"`
-`git push -u origin master`
+`git init`	初始化为 git 仓库文件夹  
+`git remote add origin git@github.com:kizunaaai/kizunaaai.github.io.git`	 设置 git 仓库文件夹的远程地址  
+`git add .`	三部曲  
+`git commit -m "first commit"`  
+`git push -u origin master`  
 
 #### 服务器 clone 到本地
 get clone git@github.com:<username>/<repository>.git
