@@ -21,8 +21,8 @@
 `git push`  
 
 #### 仓库命名规范
-讲仓库设置为 <repository_name>.github.io  
-之后可直接通过访问 https://<repository_name>.github.io 直接访问到仓库
+讲仓库设置为 < repository_name >.github.io  
+之后可直接通过访问 https://< repository_name >.github.io 直接访问到仓库
   
 ### About command
 #### 一些基本常用的命令
@@ -43,7 +43,7 @@
    * mkdir -rf <folder_name>	强制删除文件夹或文件
 * touch
    * touch <filename>	创建文件
-   *拓展
+   * 拓展
       * echo	重定向
       * echo " content " > 123		将 content 覆盖到文件名为 123 的文件中
       * echo " content  " >> 123 	讲 content 追加到文件名为 123 的文件中
