@@ -65,7 +65,7 @@
 2018/11/4	2:00
 
 ## 经验&教训
-把新建文件夹上传到空仓库中很经常会遇到以下的报错  
+把文件夹上传到仓库中很经常会遇到以下的报错  
   
 >fatal: not a git repository (or any of the parent directories): .git  
   
