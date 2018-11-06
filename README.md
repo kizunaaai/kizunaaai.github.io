@@ -66,10 +66,12 @@
 
 ## 经验&教训
 托管到 github pages上的README.md文件编码要为UTF-8不然网页无法正常托管  
-附上报错后收到的邮件  
+附上报错后收到的邮件 
+   
 >The page build failed for the 'master' branch with the following error:  
 >
 >The file 'README.md' is not properly UTF-8 encoded.  
+
 5分钟又过去了  
 2018/11/4	2:05  
   
