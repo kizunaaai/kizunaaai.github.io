@@ -65,15 +65,11 @@
 2018/11/4	2:00
 
 ## 经验&教训
-托管到 github pages上的README.md文件编码要为UTF-8不然网页无法正常托管  
-附上报错后收到的邮件 
-   
->The page build failed for the 'master' branch with the following error:  
->
->The file 'README.md' is not properly UTF-8 encoded.  
-
-5分钟又过去了  
-2018/11/4	2:05  
+把新建文件夹上传到空仓库中很经常会遇到以下的报错  
   
-
-
+>fatal: not a git repository (or any of the parent directories): .git  
+  
+解决方法：   
+两种情况  
+1.看看是否进入到仓库对应的文件夹中，cd进入clone下来的仓库对应的文件夹中就ok了  
+2.进入到仓库所对应本地的文件夹后，仍然报错的，把文件夹重命名后，重新把仓库clone到本地，让后把文件拷入新的文件夹中，就可以重新愉快的上传了   
