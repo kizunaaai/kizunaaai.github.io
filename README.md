@@ -46,7 +46,7 @@
    * 拓展
       * echo	重定向
       * echo " content " > 123		将 content 覆盖到文件名为 123 的文件中
-      * echo " content  " >> 123 	讲 content 追加到文件名为 123 的文件中
+      * echo " content  " \>\> 123 	讲 content 追加到文件名为 123 的文件中
 * mv 
    * mv 123.txt 321.txt		将文件名为123的txt重命名为321
    * mv 123.txt download	将文件123.txt移动到相对路径的download文件夹中
@@ -60,11 +60,18 @@
 
 ## Second 心得
 这次应该算是真的入门了8 ，一直在徘徊犹豫 ，通过这次实践也学习到了许多平常经常接触却不怎么了解的东西 ，很开心能赶上自此活动 ，大家一起加油吧！  
-~报名之后犹豫过，但是很开心还是投入进来了~  
+<del>报名之后犹豫过，但是很开心还是投入进来了</del>  
 最后一段猛如虎的操作之后就要去睡觉觉了  
 2018/11/4	2:00
 
 ## 经验&教训
-README.md 文件一定一定要用 UTF-8 编码写，不然无法托管到 github pages  
+托管到 github pages上的README.md文件编码要为UTF-8不然网页无法正常托管  
+附上报错后收到的邮件  
+>The page build failed for the 'master' branch with the following error:  
+
+The file 'README.md' is not properly UTF-8 encoded.  
 5分钟又过去了  
 2018/11/4	2:05  
+  
+
+
